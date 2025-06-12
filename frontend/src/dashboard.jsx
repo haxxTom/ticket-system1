@@ -1,5 +1,6 @@
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement } from "chart.js";
+import MyPieChart from './userPie';
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement);
 
@@ -33,6 +34,7 @@ export default function Dashboard() {
       <div className="bg-white rounded-xl shadow p-4 max-w-3xl">
         <Line data={data} options={options} />
       </div>
+      <MyPieChart />
     </div>
   );
 }

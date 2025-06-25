@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+dist/
+
+# Env proměnné
+.env
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# OS specifické
+.DS_Store
+Thumbs.db
+
+# IDE (volitelně podle editoru)
+.vscode/
+.idea/
